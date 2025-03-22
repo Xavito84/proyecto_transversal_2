@@ -1,0 +1,100 @@
+body {
+    background: #4b6cb7;  
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7); 
+    background: linear-gradient(to right, #182848, #4b6cb7); 
+    height: auto; /* Permitir que el contenido crezca */
+    min-height: 100vh; /* Asegurar que el fondo cubra toda la pantalla */
+    background-color: #000000;
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+h1, p, a {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    text-align: center;
+    line-height:.8;
+    color: white;
+}
+.contenido {
+    max-width: 1200px;
+    margin: 5rem auto 0 auto;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+h1 {
+    font-size: 4rem;
+}
+a {
+    font-size: 1.4rem;
+}
+p {
+    font-size: 2.2rem;
+}
+
+.eslogan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.boton_index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+}
+.enlace_index{
+    text-decoration: none;
+}
+.boton_index:hover{
+    background-color: #426ec5;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #ffffff;
+
+}
+
+.h1_header {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+    align-items: start;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: 100%;
+    gap: 2rem;
+}
+
+.item {
+    list-style: none;
+}
+
+.enlace_navegacion {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+   
+}
+
+.enlace_navegacion:hover {
+    color: #f0f07a;
+}
